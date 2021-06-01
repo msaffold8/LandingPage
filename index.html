@@ -80,16 +80,27 @@
 	                        <h1 class="hero-title mt-0">Financial News Personalized</h1>
 	                        <p class="hero-paragraph">Arcafeed finds relevant, credible, and reliable articles to help you stay knowledgeable in the financial world. Arcafeed scours the web for news articles catered to its user’s stock portfolio.</p>
                           <!-- Begin Mailchimp Signup Form -->
-                          <form name="test" method="POST" data-netlify="true">
-                                        <div class="footer-form newsletter-form field field-grouped">
-                                            <div class="control control-expanded">
-                                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
-                                            </div>
-                                            <div class="control">
-                                                <a class="button button-primary button-block button-shadow" href="#">Early access</a>
-                                            </div>
-                                        </div>
-                                      </form>
+                          <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
 
 
 
