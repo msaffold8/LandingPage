@@ -67,12 +67,12 @@
 @include media( '>large' ) {
 
 	.header-shape-1 {
-		left: auto;
+		left: text-center;
 		right: 0;
 	}
 
 	.header-shape-2 {
-		left: auto;
+		left: text-center;
 		right: 38%;
 	}
 }
