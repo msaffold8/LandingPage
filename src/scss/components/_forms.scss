@@ -108,3 +108,10 @@
     }
   }
 }
+
+@include media('<small') {
+  .early-access-form {
+    display: flex;
+    width: 100%;
+  }
+}
