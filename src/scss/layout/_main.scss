@@ -52,6 +52,19 @@ div.testimonial-users .info span {
     display: block;
     width: 100%;
 }
+#testimonialssection .back a{
+    color: rgb(86, 86, 120);
+    text-decoration: none;
+    }
+    #testimonialssection .back{
+        display: block;
+        margin-bottom: 35px;
+    }
+    #testimonialssection .back svg.svg-inline--fa.fa-long-arrow-alt-left.fa-w-14 {
+        font-size: 10px;
+        width: 15px;
+        display: inline-block;
+    }
 #mainprofiledetail .back a{
 color: rgb(86, 86, 120);
 text-decoration: none;
@@ -174,6 +187,9 @@ div.testimonial-users .item{  max-width:31.2%}
 		max-width: 100%;
 	}
 	#mainprofiledetail .back{
+		margin-bottom: 10px;
+    }
+    #testimonialssection .back{
 		margin-bottom: 10px;
 	}
 
