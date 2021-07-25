@@ -1,7 +1,9 @@
 .is-boxed {
     background: color(bg, 2);
 }
-
+.site-header-inner .header-brand .m-0 {
+    width: 7rem;
+}
 .body-wrap {
     background: color(bg, 1);
     overflow: hidden;
@@ -72,6 +74,7 @@ text-decoration: none;
 #mainprofiledetail .back{
     display: block;
 	margin-bottom: 35px;
+	margin-top: 50px;
 }
 #mainprofiledetail .back svg.svg-inline--fa.fa-long-arrow-alt-left.fa-w-14 {
     font-size: 10px;
@@ -103,7 +106,10 @@ div#profiledetails > div.profiledescription {
 div#profiledetails img {
     max-height: 365px;
 }
-
+.testimonials {
+    position: relative;
+    margin-top: 50px;
+}
 div#profiledetails h4 {
     margin: 0px 0 24px 0;
 }
