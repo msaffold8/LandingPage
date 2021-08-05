@@ -1,3 +1,15 @@
+body.is-boxed.has-animations.bg--white {
+    background: #11103E;
+}
+
+body.is-boxed.has-animations.bg--white main#mainpage ,body.is-boxed.has-animations.bg--white main#mainprofiledetail, body.is-boxed.has-animations.bg--white .boxed-container{
+    background: #11103E;
+}
+body.has-animations.bg--white .testimonials-head h2.sectiontitle.mt-0 ,body.has-animations.bg--white  .testimonials-head p,
+body.has-animations.bg--white  div.testimonial-users .info span.name,body.has-animations.bg--white  div.testimonial-users .info span,
+body.has-animations.bg--white  #mainprofiledetail .back a,body.has-animations.bg--white div#profiledetails>div.profiledescription,body.has-animations.bg--white div#profiledetails h3,body.has-animations.bg--white div#profiledetails h4{
+	color:#fff;
+}
 .is-boxed {
     background: color(bg, 2);
 }
@@ -189,12 +201,13 @@ div#profiledetails h3 {
     margin-top: 75px;
 }
 .site-footer-inner.has-top-divider {
-    border-top: 2px solid #31374c;
+    border-top: 0;
     margin-top: 10px;
 }
 .testimonials-head p {
     display: inline-block;
     width: 50%;
+	font-family: 'Roboto', sans-serif;
 }
 @include media( '>medium' ) {
 
