@@ -100,9 +100,13 @@ div.testimonial-users .info span.name {
     font-weight: bold;
     line-height: 11px;
     padding: 15px 2px 6px;
+    font-family: 'Roboto',sans-serif;
 }
 div.testimonial-users span.desgntn {
     font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Lato';
+    color:#b3b1b1 !important;
 }
 div.testimonial-users .info span {
     display: block;
@@ -122,8 +126,14 @@ div.testimonial-users .info span {
         display: inline-block;
     }
 #mainprofiledetail .back a{
-color: rgb(86, 86, 120);
+color: #888 !important;
 text-decoration: none;
+font-size: 30px;
+font-family: 'Lato';
+}
+#mainprofiledetail .back a img{
+    display: inline-block;
+    margin-right: 5px;
 }
 #mainprofiledetail .back{
     display: block;
@@ -166,10 +176,13 @@ div#profiledetails img {
 }
 div#profiledetails p {
 font-family: 'Roboto', sans-serif;
+font-weight: 300;
 }
 div#profiledetails h4 {
     margin: 0px 0 24px 0;
-	font-family: 'Lora', serif;
+    font-weight: lighter;
+    font-family: 'Lato';
+    color:#b3b1b1 !important;
 }
 
 div#profiledetails h3 {
@@ -181,6 +194,8 @@ div#profiledetails h3 {
     max-width: 49%;
     width: 49%;
     vertical-align: top;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
 }
 .footer--logo{
 	max-width:300px
@@ -207,7 +222,8 @@ div#profiledetails h3 {
 .testimonials-head p {
     display: inline-block;
     width: 50%;
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 @include media( '>medium' ) {
 
@@ -221,6 +237,9 @@ div#profiledetails h3 {
     
 }
 @include media('<=1024px') {
+.header-shape.header-shape-2 {
+    display: none;
+}
 div.testimonial-users .item{  max-width:31.2%}
 .testimonials-head  h2.sectiontitle.mt-0 {
     display: inline-block;
@@ -235,7 +254,9 @@ div.testimonial-users .item{  max-width:31.2%}
 }
 }
 @include media('<=680px') {
-
+.header-shape.header-shape-2 {
+    display: none;
+}
     div.testimonial-users .item {
       max-width: 48%;
 		margin: 3% 3px;
