@@ -35,8 +35,9 @@
 	&.has-top-divider {
 
 		&::before {
-			background: color(typography, 2);
-			background: linear-gradient(to right, rgba(color(typography, 2), .1) 0, rgba(color(typography, 2), .6) 50%, rgba(color(typography, 2), .1) 100%);
+			/*background: color(typography, 2);
+			background: linear-gradient(to right, rgba(color(typography, 2), .1) 0, rgba(color(typography, 2), .6) 50%, rgba(color(typography, 2), .1) 100%);*/
+			background:none;
 		}
 	}
 }
